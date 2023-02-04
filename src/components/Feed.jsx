@@ -31,7 +31,7 @@ const Feed = () => {
   const ideaName = categoryId || "Tất cả";
   if (loading) {
     return (
-      <Spinner message={`Đang lọc "${ideaName}".`} />
+      <Spinner message={`Đang lọc "${ideaName}"`} />
     );
   }
 
